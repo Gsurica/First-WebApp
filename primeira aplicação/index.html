@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu App</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+</head>
+<body>
+    <section>
+        <h1 class="titulo-1"></h1>
+        <article>
+            <form>
+                <h4 class="titulo-2">Alcool ou Gasolina?</h4>
+                <div>
+                    <label for="gasolina">Preço Gasolina:</label>
+                    <input type="text" name="gasolina" placeholder="Preço Gasolina?" id="gasolina" >
+                </div>
+                <div>
+                    <label for="alcool">Preço Alcool:</label>
+                    <input type="text" name="alcool" placeholder="Preço Alcool?" id="alcool" >
+                </div>
+            </form>
+            <button class="button-execute" onClick="calcularMelhorPreço()">Calcular</button>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h4 id="resultado">Resultado:</h4>
+        </article>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
